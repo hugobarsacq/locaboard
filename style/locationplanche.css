@@ -1,0 +1,126 @@
+body{
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size: cover;
+	background-image: linear-gradient(60deg , rgba(0,0,0,0.0) 2%, rgba(105,210,231,0.7));
+	font-family:'Source code pro', Calibri, serif ;
+}
+
+div{
+	background-image: linear-gradient(300deg , #F7D358 10%, rgba(105,210,231,0.7));
+	border-width: 2px;
+	border-style: solid;
+	border-color: rgba(105,210,231,0.7);
+}
+
+nav{
+	width: 100%;
+	
+background-color:rgba(0,0,0,0.75);
+
+}
+nav > ul{
+	margin: 0px;
+	padding: 0px;
+
+}
+nav > ul::after{
+	content: "";
+	display: block;
+	clear: both;
+
+}
+nav > ul > li{
+	float: left;
+	position: relative;
+
+}
+nav > ul >li >a{
+	padding: 20px 30px;
+	color: red;
+	font-size: 25px;
+}
+
+nav li{
+	list-style-type: none;
+}
+.submenu{
+	display: none;
+
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+}
+
+nav li:hover .submenu{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left:0px;
+	padding: 0px;
+	z-index: 1000;
+
+}
+.submenu li{
+	border-bottom: 1px solid #CCC;
+
+
+}
+.submenu li a{
+	padding: 5px 5px;
+	font-size: 15px;
+	color: #3c90a3;
+	width: 150px;
+
+}
+.menu-rayon:hover{
+	
+	background-color:rgb(0,0,0);
+	
+}
+	
+.menu-location:hover{
+	background-color:rgb(0,0,0);
+}
+
+.menu-html{
+	padding-right: 30px;
+}
+
+.menu-rayon .submenu{
+	background-color: #a6e2ef;
+
+}
+.menu-compte .submenu{
+	background-color: #a6e2ef;
+}
+
+.submenu li:hover a{
+	color: #EEE;
+	font-weight: bold;
+}
+
+
+.menu-rayon .submenu li:hover{
+	background-color: #a6e2ef;
+	
+}
+.menu-compte .submenu li:hover{
+	background-color: #a6e2ef;
+}
+#rayon{
+	margin-right: 53.3%;
+}
+
+img{
+	height: 30%;
+
+}
+.compte{
+	height: 100px;
+	float: right;
+	border-radius: 100%;
+}
+
